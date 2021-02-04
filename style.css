@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*----------Navigation---------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;    
+}
+.navbar-brand img
+{
+    height: 60px;
+    width: 300px;
+padding-left: 10px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    color:darkcyan ;
+}
+#nav-bar ul li a:hover
+{
+    color:darkcyan ;
+}
+.navbar
+{
+    background: white;
+}
+.navbar-toggler
+{
+    border: none;
+}
+.nav-link
+{
+    color:darkcyan;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*-----------Slider--------*/
+{
+    width: 10%;
+}
+.carousel-caption h5
+{
+    color: white;
+    font-size: 29px;
+    font-family:monospace;
+}
+.carousel-caption
+{
+    top: 20%;
+    transform: translateX(-31%);
+    bottom: initial; 
+}
+
+/*-------------------------About------------------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: darkcyan;
+}
+#abt .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: darkcyan;
+}
+.about-content
+{
+    padding-top: 20px;
+    
+}
+
